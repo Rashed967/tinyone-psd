@@ -1,0 +1,34 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+ol,ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	/*     font-family: 'PT Sans', sans-serif;    */
+}
+
+/*navbar part css start*/
+.nav-link{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	color:  #000;
+}
+
+.navbar-brand span{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 17px;
+	color:  #000;
+}
+/*navbar part css end*/
