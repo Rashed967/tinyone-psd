@@ -3,6 +3,7 @@
 	margin: 0;
 	outline: 0;
 	box-sizing: border-box;
+	/*border: none;*/
 }
 
 ol,ul{
@@ -20,8 +21,10 @@ body{
 /*navbar part css start*/
 
 .navbar{
+	background-color: #fcdb00;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 .nav-link{
 	font-family: 'PT Sans', sans-serif;
@@ -107,6 +110,7 @@ body{
 
 #features{
 	margin: 80px 0 0;
+ 	padding-bottom: 100px;
 }
 
 .common_heading{
@@ -153,5 +157,87 @@ body{
 /*footer part css start*/
 footer{
 	padding-top: 100px;
+	background-color: #010101;
 }
+
+footer .common_heading{
+	color: white;
+}
+
+footer .common_heading h4{
+	color: #fcdb00;
+}
+
+.footer_input{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.footer_input form input{
+	padding: 15px 0;
+	border-radius: 7px;
+	
+}
+
+.footer_input form input:nth-child(2){
+	width: 80%;
+	padding-left: 20px;
+}
+
+.footer_input form input:nth-child(4){
+	width: 17%;
+	background-color: #fcdb00;
+	font-family: 'PT Sans', sans-serif; 
+	font-weight: 700;
+	font-size: 16px;
+	transition: all linear .3s;
+	float: right;
+}
+
+.footer_input form input:nth-child(4):hover{
+	background-color: black;
+	border: 1px solid #fcdb00;
+	transition: all linear .3s;
+	color: #fcdb00;
+}
+
+
+.footer_social{
+	margin-top: 30px;
+	margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_social a{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fcdb00;
+	margin: 0 25px;
+	display: inline-block;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	border-radius: 5px;
+}
+
+.footer_address{
+	color: white;
+	padding: 30px 0 80px;
+
+
+}
+
+.footer_link{
+	padding: 30px 0 80px;
+}
+
+.footer_link a{
+	display: block;
+	color: white;
+}
+
 /*footer part css end*/
+
+
